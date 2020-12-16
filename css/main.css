@@ -61,10 +61,10 @@ header img{
 
 .header--title-container p{
     margin-top: 25px;
-    font-weight: 1.4rem;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: ver(--soft-orange);
+    color: var(--soft-orange);
 }
 
 .header--title-container .header--button{

@@ -196,7 +196,7 @@ main{
     font-weight: 500;
     line-height: 1.9rem;
     color: var(--grey);
-    background-color: black/*  var(--just-white) */;
+    background-color:  var(--just-white) ;
 }
 
 .currency-table--container .table__top-left,
@@ -209,15 +209,18 @@ main{
     border-radius: 0 15px 0 0;
 }
 
-.currency-table--container .table__bottom-left{
+.currency-table--container .table__bottom-left,
+.commissions-table--container .table2__bottom-left{
     border-radius: 0 0 0 15px ;
 }
 
-.currency-table--container .table__bottom-right{
+.currency-table--container .table__bottom-right,
+.commissions-table--container .table2__bottom-right{
     border-radius: 0 0  15px 0;
 }
 
-.currency-table--container .table__right{
+.currency-table--container .table__right,
+.commissions-table--container .table2__right{
     font-size: 1.4rem;
     font-weight: normal;
     line-height: 1.7rem;

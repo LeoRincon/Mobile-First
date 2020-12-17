@@ -8,6 +8,7 @@
     --grey:#BABABA;
     --white-off:#FAF8F7;
     --just-white:#FFFFFF;
+    --grey-2:#808080;
 
 }
 
@@ -285,3 +286,100 @@ main{
 }
 
 
+
+/*---------------styles section 2 beneficios-------------------*/
+
+
+
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product-detail--batatabit-logo{
+    position:absolute;
+    width: 40px;
+    height: 25px;
+    top: -12px;
+    left: calc(50% - 20px);
+    background-image: url('../assets/icons/batata.svg');
+}
+
+.product-detail--tittle{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail--tittle h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.product-detail--tittle p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey-2);
+}
+
+.product-detail--card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-width: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card .icons-cards{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-detail--card .clock{
+    background-image: url('../assets/icons/clock.svg'); 
+}
+.product-detail--card .eye{
+    background-image: url('../assets/icons/eye.svg'); 
+}
+.product-detail--card .dollar{
+    background-image: url('../assets/icons/dollar-sign.svg'); 
+}
+.product-detail--card .check{
+    background-image: url('../assets/icons/check-circle.svg'); 
+}
+
+.product-detail--card .product--card-tittle{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product-detail--card .product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--grey-2);
+}

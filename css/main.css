@@ -387,6 +387,8 @@ main{
 
 
 /*------------------styles section 3---------------*/
+
+
 .bitcoin-img-container{
     width: 100%;
     min-width: 320px;
@@ -460,9 +462,21 @@ main{
     height: 31px;
     left: calc(50% - 60px);
     top: -15px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding: 6px;
     background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+.favorito{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: calc(50% - -67px);
+    top: 15px;
+    font-size: 1.2rem;
+    padding: 2px;
+    background-color: var(--secundary-blue);
     border-radius: 8px;
     color: var(--just-white);
 }
@@ -485,12 +499,16 @@ main{
     color: black;
 }
 
-.plan-card--price span{
+.plan-card--price span,
+.primium-plus{
     font-size: 1.6rem;
     font-weight: 300;
     position: absolute;
     left: calc(50% - 45px);
     top: calc(50% - 45px);
+}
+.plan-card--price .primium-plus{
+    left: calc(50% - 60px);
 }
 
 .plan-card--saving{
@@ -522,3 +540,4 @@ main{
     background-image: url('../assets/icons/orange-right-arrow.svg');
     vertical-align: text-bottom; 
 }
+

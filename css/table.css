@@ -18,7 +18,7 @@
 
 /*-----------------------styles section 4 media queries---------------------*/
 
-.main-plans-container .plans-container--slider{
+.plans-container--slider{
     justify-content: center;
     display: flex;
     width: 930px;

@@ -170,7 +170,7 @@ main{
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
-    text-align: left;
+    text-align: center;
 }
 .main-commissions-table .commissions-table--tittle{
     color: var(--secundary-blue);

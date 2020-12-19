@@ -448,7 +448,7 @@ main{
     display: flex;
     gap: 20px;
     height: 316px;
-    overflow-x: x scroll;
+    overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity ;
 }

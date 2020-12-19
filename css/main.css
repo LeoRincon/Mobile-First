@@ -21,7 +21,7 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
 
 /* ----------------------Styles header--------------------------------*/
@@ -444,8 +444,18 @@ main{
     color: #757575;
 }
 
+.plans-container--slider{
+    display: flex;
+    gap: 20px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity ;
+}
+
 .plans-container--card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -541,4 +551,6 @@ main{
     background-image: url('../assets/icons/orange-right-arrow.svg');
     vertical-align: text-bottom; 
 }
+
+
 
